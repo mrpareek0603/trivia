@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const userController = require('../controllers/userDetails');
+const userDetailsController = require('../controllers/userDetails');
 
 const gameData = require('../models/data');
 
-router.get( '/user-details', userController.getUser)
+router.get( '/user-details', userDetailsController.getUser)
 
-router.post('/user-details', userController.postuser);
+router.post('/user-details', userDetailsController.postuser);
 
 module.exports = router;
