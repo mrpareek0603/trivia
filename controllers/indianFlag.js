@@ -7,7 +7,7 @@ exports.getFlag = (req,res,next)=>{
 exports.postAnswer = async(req,res,next)=>{
     gameData.colours = req.body.colour;
     
-    console.log('indian flag route ' + gameData.colours);
+    console.log( gameData.colours);
     res.redirect('/summary');
     // const colours = req.body;
 }
