@@ -1,0 +1,254 @@
+Task:
+
+APP NAME : Trivia App( should show on the launch icon and splash page )
+
+First page:
+
+ 
+
+What is your name?
+
+ 
+
+Answer : Text field ( capture the name of the user )
+
+ 
+
+ 
+
+NEXT BUTTON to launch next page:
+
+ 
+
+Who is the best cricketer in the world?
+
+ 
+
+Options:
+
+ 
+
+A) Sachin Tendulkar
+
+ 
+
+B) Virat Kolli
+
+ 
+
+C) Adam Gilchirst
+
+ 
+
+D) Jacques Kallis
+
+ 
+
+ 
+
+ 
+
+Select any one.
+
+ 
+
+ 
+
+ 
+
+NEXT BUTTON to launch a new page:
+
+ 
+
+ 
+
+ 
+
+What are the colors in the Indian national flag? Select all:
+
+ 
+
+Options:
+
+ 
+
+A) White
+
+ 
+
+B) Yellow
+
+ 
+
+C) Orange
+
+ 
+
+D) Green
+
+ 
+
+ 
+
+ 
+
+Select more than 1
+
+ 
+
+ 
+
+ 
+
+NEXT BUTTON:
+
+ 
+
+ 
+
+ 
+
+SUMMARY
+
+ 
+
+ 
+
+ 
+
+Hello “Name:” ,
+
+ 
+
+ 
+
+ 
+
+Here are the answers selected:
+
+ 
+
+ 
+
+ 
+
+Who is the best cricketer in the world?
+
+ 
+
+ 
+
+ 
+
+Answer: “ “
+
+ 
+
+ 
+
+ 
+
+What are the colors in the national flag?
+
+ 
+
+ 
+
+ 
+
+Answers : “Commo separated”
+
+ 
+
+ 
+
+ 
+
+OTHER THINGS TO DO:
+
+ 
+
+ 
+
+ 
+
+On CLICKING “FINISH” , start the game again from page 1.
+
+On CLICKING HISTORY , show all the past  games with their answers in the following format:
+
+ 
+
+ 
+
+GAME 1 : Date - Time
+
+ 
+
+Name : Rahul Sharma
+
+ 
+
+Who is the best cricketer in the world?
+
+ 
+
+Answer
+
+ 
+
+What are the colors in the national flag?
+
+ 
+
+Answers : “Comma separated”
+
+ 
+
+ 
+
+ 
+
+GAME 1 : 15th March 2:00 pm
+
+ 
+
+Name : Rahul Singh
+
+ 
+
+Who is the best cricketer in the world?
+
+ 
+
+Answer
+
+ 
+
+What are the colours in the national flag?
+
+ 
+
+Answers : “Comma separated”
+
+ 
+
+Things to do:-
+
+ 
+
+a) Please use local database for storing history
+
+ 
+
+b) Please try to use a design pattern like MVC , MVVM to write the code
+
+ 
+
+c) The code should be commented
+
+ 
+
+d) The app code provided should build on our local machines to evaluate code quality and the app itself.
+
+
+Note: Please push the code to Github and make it public OR share the task link to the same email.

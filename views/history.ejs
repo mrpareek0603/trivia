@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia App</title>
+</head>
+<body>
+    <main>
+        
+            <div>
+                 
+                <% if(userData!=0){ var i= 1; userData.forEach((data)=>{ %>
+                    
+                    Game <%= i; %>: <%= data.date %><br>
+                    Name: <%= data.userName %><br>
+                    Who is the best cricketer in the world?<br>
+                    Answer: <%= data.cricketer %><br>
+                    What are the colours in the national flag?<br>
+                    Answer: <%= data.indianFlag %>
+                    <br><br>
+                <% i++; }) %>
+                
+                <% } else { %>
+                    <p>No Data Found!</p>
+                <% } %>
+                    
+            </div>
+
+            <form action="/game" >
+                <button>Home!</button>
+            </form>
+        
+    </main>
+</body>
+</html>
